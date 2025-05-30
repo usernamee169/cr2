@@ -5,6 +5,7 @@
 '''
 
 class NodeClass:
+    
 # FIXME:Классы нужно именовать с суффиксом Class: NodeClass
     def __init__(self, data):
         self.data = data
@@ -12,6 +13,7 @@ class NodeClass:
 
 
 class LinkedListClass:
+    
 # FIXME: Классы нужно именовать с суффиксом Class: LinkedListClass
     def __init__(self):
         self.head = None

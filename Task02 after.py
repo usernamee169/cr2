@@ -15,6 +15,7 @@ Put класса PT.
 
 #FIXME: Исправлены некорректные отступы
 class Node:
+ 
     def __init__(self, data):
         self.data = data
         self.next = None

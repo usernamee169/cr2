@@ -13,6 +13,7 @@ Dynamic70. Даны ссылки A1 и A2 на первый и последни�
 
 
 class NodeClass:
+    
 # FIXME: Классы нужно именовать с суффиксом Class: NodeClass
     def __init__(self, key):
         self.key = key
@@ -21,6 +22,7 @@ class NodeClass:
 
 
 class DoublyLinkedListClass:
+    
 # FIXME: Классы нужно именовать с суффиксом Class: ListClass.
     def __init__(self):
         self.head = None

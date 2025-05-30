@@ -14,7 +14,9 @@ Dynamic59: Добавление N чисел в конец двусвязног�
 from typing import Optional
 
 
-class ClassNode: # FIXME: Классы нужно именовать с суффиксом Class: NodeClass
+class ClassNode:
+    
+    # FIXME: Классы нужно именовать с суффиксом Class: NodeClass
     def __init__(self, value: str) -> None:
         self.value = value
         self.prev: Optional["Node"] = None  # Ссылка на предыдущий узел
